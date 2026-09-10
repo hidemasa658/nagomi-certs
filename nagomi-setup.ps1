@@ -155,7 +155,7 @@ Remove-Item -Path $temp -Recurse -Force -ErrorAction SilentlyContinue
 # ---- Complete ----
 Write-Banner "  セットアップ完了 ✓" "Green"
 Write-Host ""
-Write-Host "  ブラウザ 完全再起動 (全タブ閉じる) → URL アクセス:" -ForegroundColor White
+Write-Host "  新しいタブで 以下 URL を開いてください:" -ForegroundColor White
 Write-Host "  https://nagomi-admin.duckdns.org/gallery/nagomi-corp/" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "  証明書選択ダイアログで [keiei-pc] を選んで OK" -ForegroundColor White
